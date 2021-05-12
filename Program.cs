@@ -6,10 +6,9 @@ namespace AnimationExample
 {
     class Program
     {
+        private const string msg = "Welcome to be, I'll be uploading exercises and projects... Follow me and don't forget to support me with one star for more. ";
         public static async Task Main(string[] args)
         {
-
-            const string msg = "Hola todo el mundo soy un grandioso programador, tengo 23 años de edad y me apasiona lo que hago.";
             for (int i = 0; i < msg.Length; i++)
             {
                 // a kind of an animation
